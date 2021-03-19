@@ -7,8 +7,5 @@ function sum(n){
 }
 
 let n = 8
-st = new Date().getTime();
 console.log(`Sum of first ${n} Natural Number: ${sum(n)}`)
-et = new Date().getTime();
 
-console.log(`Time: ${et-st}`)
